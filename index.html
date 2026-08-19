@@ -375,21 +375,5 @@
 
 </section>
 
-<script>
-  // Pulls the correct filename into your top header wrapper
-  fetch('site-header.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('site-header').innerHTML = data;
-    });
-
-  // Pulls your footer into the bottom footer wrapper
-  fetch('footer.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('site-footer').innerHTML = data;
-    });
-</script>
-
 </body>
 </html>
